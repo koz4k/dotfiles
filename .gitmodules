@@ -1,0 +1,33 @@
+[submodule "vim/plugins/nerdtree-git-plugin"]
+	path = vim/plugins/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "vim/plugins/promptline.vim"]
+	path = vim/plugins/promptline.vim
+	url = https://github.com/koz4k/promptline.vim
+[submodule "vim/plugins/tmuxline.vim"]
+	path = vim/plugins/tmuxline.vim
+	url = https://github.com/koz4k/tmuxline.vim
+[submodule "vim/plugins/vim-airline"]
+	path = vim/plugins/vim-airline
+	url = https://github.com/koz4k/vim-airline
+[submodule "vim/plugins/vim-airline-themes"]
+	path = vim/plugins/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "vim/plugins/vim-fugitive"]
+	path = vim/plugins/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vim/plugins/vim-gitgutter"]
+	path = vim/plugins/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim/plugins/vim-startify"]
+	path = vim/plugins/vim-startify
+	url = https://github.com/mhinz/vim-startify
+[submodule "vim/plugins/nerdtree"]
+	path = vim/plugins/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "vim/plugins/ale"]
+	path = vim/plugins/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "zprezto"]
+	path = zprezto
+	url = https://github.com/koz4k/prezto
