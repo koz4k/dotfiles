@@ -25,9 +25,15 @@
 [submodule "vim/plugins/nerdtree"]
 	path = vim/plugins/nerdtree
 	url = https://github.com/scrooloose/nerdtree
-[submodule "vim/plugins/ale"]
-	path = vim/plugins/ale
-	url = https://github.com/w0rp/ale.git
+[submodule "vim/plugins/psc-ide-vim"]
+	path = vim/plugins/psc-ide-vim
+	url = https://github.com/FrigoEU/psc-ide-vim.git
+[submodule "vim/plugins/purescript-vim"]
+	path = vim/plugins/purescript-vim
+	url = https://github.com/purescript-contrib/purescript-vim.git
+[submodule "vim/plugins/syntastic"]
+	path = vim/plugins/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "zprezto"]
 	path = zprezto
 	url = https://github.com/koz4k/prezto

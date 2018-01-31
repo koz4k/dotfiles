@@ -47,7 +47,9 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'w0rp/ale'
+Plug 'vim-syntastic/syntastic'
+Plug 'raichoo/purescript-vim'
+Plug 'FrigoEU/psc-ide-vim'
 
 call plug#end()
 
@@ -80,3 +82,10 @@ let g:startify_custom_header = [
 \ ]
 
 let g:airline#extensions#tmuxline#enabled = 0
+
+let purescript_indent_if = 2
+let purescript_indent_case = 2
+let purescript_indent_let = 2
+let purescript_indent_where = 2
+let purescript_indent_do = 2
+let purescript_indent_in = 2
