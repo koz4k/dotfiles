@@ -27,7 +27,33 @@ highlight Search cterm=reverse ctermfg=NONE ctermbg=NONE
 let mapleader = "\<Space>"
 nnoremap <Leader>q :q<CR>  " surprisingly easier to type than :q<Enter>
 
-map <Leader>f :NERDTreeToggle<CR>
+"move between windows easier
+nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+
+" resize windows easier
+nnoremap + <C-W>+
+nnoremap - <C-W>-
+nnoremap < <C-W><
+nnoremap > <C-W>>
+
+" tab navigation
+nnoremap th :tabprev<CR>
+nnoremap tl :tabnext<CR>
+nnoremap tk :tabfirst<CR>
+nnoremap tj :tablast<CR>
+nnoremap tt :tabedit<Space>
+nnoremap tn :tabnext<Space>
+nnoremap tm :tabm<Space>
+nnoremap tq :tabclose<CR>
+
+" quickly open NERDTree
+nnoremap <Leader>f :NERDTreeToggle<CR>
+
+" quickly open file in new tab in NERDTree
+let NERDTreeMapOpenInTab='tt'
 
 set tabstop=4
 set shiftwidth=4
