@@ -37,3 +37,6 @@
 [submodule "zprezto"]
 	path = zprezto
 	url = https://github.com/koz4k/prezto
+[submodule "vim/plugins/vim-easymotion"]
+	path = vim/plugins/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion

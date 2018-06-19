@@ -55,6 +55,21 @@ nnoremap <Leader>f :NERDTreeToggle<CR>
 " quickly open file in new tab in NERDTree
 let NERDTreeMapOpenInTab='tt'
 
+" ff{char} to move to {char}
+map  ff <Plug>(easymotion-bd-f)
+nmap ff <Plug>(easymotion-overwin-f)
+
+" s{char}{char} to move to {char}{char}
+nmap s <Plug>(easymotion-overwin-f2)
+
+" move to line
+map fl <Plug>(easymotion-bd-jk)
+nmap fl <Plug>(easymotion-overwin-line)
+
+" move to word
+map  fw <Plug>(easymotion-bd-w)
+nmap fw <Plug>(easymotion-overwin-w)
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -76,6 +91,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-syntastic/syntastic'
 Plug 'raichoo/purescript-vim'
 Plug 'FrigoEU/psc-ide-vim'
+Plug 'easymotion/vim-easymotion'
 
 call plug#end()
 
