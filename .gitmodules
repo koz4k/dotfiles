@@ -40,3 +40,9 @@
 [submodule "vim/plugins/vim-easymotion"]
 	path = vim/plugins/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
+[submodule "vim/plugins/vdebug"]
+	path = vim/plugins/vdebug
+	url = git@github.com:vim-vdebug/vdebug.git
+[submodule "vim/plugins/vim-dispatch"]
+	path = vim/plugins/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
