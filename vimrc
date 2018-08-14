@@ -1,3 +1,5 @@
+set encoding=utf-8
+
 " activates filetype detection
 filetype plugin indent on
 
