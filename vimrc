@@ -72,6 +72,18 @@ nmap fl <Plug>(easymotion-overwin-line)
 map  fw <Plug>(easymotion-bd-w)
 nmap fw <Plug>(easymotion-overwin-w)
 
+" move to the previous buffer with "gp"
+nnoremap gp :bp<CR>
+
+" move to the next buffer with "gn"
+nnoremap gn :bn<CR>
+
+" pist all possible buffers with "gl"
+nnoremap gl :ls<CR>
+
+" pist all possible buffers with "gb" and accept a new buffer argument [1]
+nnoremap gb :ls<CR>:b
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -96,6 +108,7 @@ Plug 'FrigoEU/psc-ide-vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'vim-vdebug/vdebug'
 Plug 'tpope/vim-dispatch'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
