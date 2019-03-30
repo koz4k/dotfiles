@@ -95,18 +95,17 @@ colorscheme cookies
 call plug#begin('~/.vim/plugins')
 
 Plug 'mhinz/vim-startify'
-Plug 'vim-airline/vim-airline'
+Plug 'koz4k/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'edkolev/promptline.vim'
-Plug 'edkolev/tmuxline.vim'
+Plug 'koz4k/promptline.vim'
+Plug 'koz4k/tmuxline.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'vim-syntastic/syntastic'
+Plug 'w0rp/ale'
 Plug 'raichoo/purescript-vim'
 Plug 'FrigoEU/psc-ide-vim'
 Plug 'easymotion/vim-easymotion'
-Plug 'vim-vdebug/vdebug'
 Plug 'tpope/vim-dispatch'
 Plug 'ctrlpvim/ctrlp.vim'
 
