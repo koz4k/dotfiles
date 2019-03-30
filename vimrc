@@ -141,6 +141,25 @@ let g:startify_custom_header = [
 
 let g:airline#extensions#tmuxline#enabled = 0
 
+" use the current virtualenv in Python
+py3 << EOF
+import os
+import sys
+if 'VIRTUAL_ENV' in os.environ:
+    project_base_dir = os.environ['VIRTUAL_ENV']
+    activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+    with open(activate_this, 'r') as f:
+        exec(f.read(), {'__file__': activate_this})
+EOF
+
+" use the current virtualenv in ale's pylint
+if !empty($VIRTUAL_ENV)
+    let pylint_path = $VIRTUAL_ENV . '/bin/pylint'
+    if filereadable(pylint_path)
+        let g:ale_python_pylint_executable = pylint_path
+    endif
+endif
+
 let purescript_indent_if = 2
 let purescript_indent_case = 2
 let purescript_indent_let = 2
